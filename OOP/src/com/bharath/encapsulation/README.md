@@ -37,16 +37,10 @@ This helps in:
 private double balance;
 balance is encapsulated — hidden from the outside world.
 
-java
-Copy
-Edit
 public void deposit(double amount) { ... }
 public void withdraw(double amount) { ... }
 Controlled access to modify balance — includes validation.
 
-java
-Copy
-Edit
 public double getBalance() { return balance; }
 Provides read-only access to the encapsulated field.
 
